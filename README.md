@@ -42,8 +42,8 @@ onebot_event = converter.convert(yunhu_event)
 | bot.unfollowed | notice.friend_decrease | 用户取消关注 |
 | group.join | notice.group_member_increase | 用户加入群组 |
 | group.leave | notice.group_member_decrease | 用户离开群组 |
-| button.report.inline | notice.button_click | 按钮点击事件 |
-| bot.shortcut.menu | notice.shortcut_menu | 快捷菜单事件 |
+| button.report.inline | notice.yunhu_button_click | 按钮点击事件(云湖特有) |
+| bot.shortcut.menu | notice.yunhu_shortcut_menu | 快捷菜单事件(云湖特有) |
 
 ## 消息类型支持
 支持以下内容类型的消息转换：
