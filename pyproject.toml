@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yunhu2onebot12"
+version = "0.1.0"
+description = "云湖事件到OneBot12的协议格式转换器"
+authors = [
+    {name = "wsu2059q", email = "wsu2059@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/wsu2059q/YunhuAdapter4OneBot12"
+Repository = "https://github.com/wsu2059q/YunhuAdapter4OneBot12"
+Issues = "https://github.com/wsu2059q/YunhuAdapter4OneBot12/issues"
