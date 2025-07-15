@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yunhu2onebot12"
-version = "0.1.0"
+version = "1.1.1"
 description = "云湖事件到OneBot12的协议格式转换器"
 authors = [
     {name = "wsu2059q", email = "wsu2059@qq.com"}
